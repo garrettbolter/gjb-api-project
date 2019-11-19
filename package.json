@@ -1,20 +1,23 @@
 {
-  "name": "project-4",
+  "name": "twitter-bot",
   "version": "1.0.0",
-  "main": "app/js/index.js",
+  "description": "Nodejs Twitter Bot",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app/js/index.js"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmorelli25/Twitter-Bot.git"
+  },
+  "author": "Brandon Morelli",
   "license": "ISC",
-  "dependencies": {
-    "heroku": "^7.35.0",
-    "nodemon": "^1.19.4",
-    "twitter": "^1.7.1",
-    "node-static": "^0.7.11"
+  "bugs": {
+    "url": "https://github.com/bmorelli25/Twitter-Bot/issues"
   },
-  "devDependencies": {},
-  "description": "Read all about this project and follow the tutorial on Medium: [Build a simple Twitter Bot with Node.js in just 38 lines of code](https://codeburst.io/build-a-simple-twitter-bot-with-node-js-in-just-38-lines-of-code-ed92db9eb078)"
+  "homepage": "https://github.com/bmorelli25/Twitter-Bot#readme",
+  "dependencies": {
+    "twitter": "^1.7.0"
+  }
 }
