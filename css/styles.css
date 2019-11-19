@@ -1,0 +1,25 @@
+.post-box {
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    margin-right: 10px;
+}
+
+.left img {
+    border-radius: 25px;
+}
+
+.handle-bar {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.stats {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
